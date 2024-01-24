@@ -44,7 +44,7 @@ html {
 } */
 
 body {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 ul {
@@ -283,7 +283,7 @@ a {
 .main-header__sm-menu-close:before,
 .main-header__sm-menu-close:after {
   position: absolute;
-  content: ' ';
+  content: " ";
   height: 3rem;
   width: 1px;
   left: 50%;
@@ -771,7 +771,6 @@ a {
 /* Code for Mozilla Firefox 4 to 18 */
 /* Code for Mozilla Firefox 19+ */
 
-
 .contact__form-field-input::placeholder {
   color: rgb(175, 175, 175);
   font-weight: 400;
@@ -831,7 +830,7 @@ a {
 }
 
 .contact__form-visual {
-  background-image: url('https://i.postimg.cc/mrHQw69n/contact-form-bg.jpg');
+  background-image: url("https://i.postimg.cc/mrHQw69n/contact-form-bg.jpg");
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -846,7 +845,7 @@ a {
 }
 
 .contact__form-visual::after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: 20;
   background: rgba(var(--themeColor), 0.5);
@@ -932,7 +931,6 @@ a {
   font-weight: 700;
 }
 
-
 .themeClrSelector {
   position: fixed;
   top: 50%;
@@ -974,4 +972,8 @@ a {
   top: 0;
   left: 0;
   z-index: 1;
+}
+
+.contact-button-container {
+  margin-top: 30px;
 }
